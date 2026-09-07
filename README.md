@@ -2,10 +2,8 @@
 
 ### Prévision de la production photovoltaïque par Intelligence Artificielle
 
-**Projet de recherche scientifique — Serigne Fallou Faye**
-**Génie Électrique · ESP Dakar · Sénégal · 2026**
+**Projet de recherche scientifique**
 
----
 
 ## 🔬 À propos
 
