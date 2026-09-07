@@ -4,6 +4,7 @@
 
 **Projet de recherche scientifique**
 
+---
 
 ## 🔬 À propos
 
