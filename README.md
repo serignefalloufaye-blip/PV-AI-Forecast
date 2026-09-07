@@ -99,10 +99,10 @@ Amélioration de la généralisation inter-sites, intégration de prévisions m�
 ## 👨🏽‍🔬 Auteur
 
 **Serigne Fallou Faye**
-Étudiant en Génie Électrique — **ESP Dakar, Sénégal**
+Étudiant en Génie Électrique, **ESP Dakar, Sénégal**
 
 **Intérêt :** Intelligence Artificielle · Énergies renouvelables · Systèmes énergétiques intelligents
 
 ---
 
-⭐ *Projet de recherche — Septembre 2026*
+⭐ *Projet de recherche, Septembre 2026*
