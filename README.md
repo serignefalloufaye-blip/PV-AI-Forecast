@@ -1,71 +1,109 @@
-# PV-AI Forecast ☀️
+# ☀️ PV-AI Forecast
 
-Prévision de la production photovoltaïque par
-Machine Learning et Deep Learning.
+### Prévision de la production photovoltaïque par Intelligence Artificielle
 
-## À propos
+**Projet de recherche scientifique — Serigne Fallou Faye**
+**Génie Électrique · ESP Dakar · Sénégal · 2026**
 
-PV-AI Forecast est un projet de recherche consacré
-à la prévision de la production photovoltaïque à
-+15 minutes, +1 heure et +6 heures.
+---
 
-L'étude exploite plusieurs sources de données réelles
-issues de différents contextes géographiques :
+## 🔬 À propos
 
-🇮🇹 Italie
-🇦🇺 Australie
-🇮🇳 Inde
-🇧🇷 Brésil — 51 centrales BR-PVGen
+**PV-AI Forecast** est un projet de recherche consacré à la prévision de la production photovoltaïque à partir de données réelles.
 
-## Méthodologie
+Le système étudie trois horizons de prévision :
 
-Données réelles
-→ contrôle qualité
-→ harmonisation
-→ facteur de charge
-→ feature engineering
-→ Machine Learning
-→ Deep Learning
-→ validation temporelle
-→ interprétabilité SHAP
+**+15 min · +1 h · +6 h**
 
-## Modèles
+---
 
-- Persistence
-- Ridge
-- Random Forest
-- XGBoost
-- LSTM
-- GRU
+## 🌍 Données
 
-## Horizons
+L'étude utilise plusieurs sources réelles provenant de :
 
-+15 min
-+1 h
-+6 h
+🇮🇹 Italie · 🇦🇺 Australie · 🇮🇳 Inde · 🇧🇷 Brésil
 
-## Principaux résultats
+avec notamment **51 centrales photovoltaïques BR-PVGen**.
 
-À +6 h sur SolarTech Lab :
+---
 
-Persistence : 18,32 % nMAE
-Random Forest : 5,43 % nMAE
-Skill Score : +70,38 %
+## 🤖 Approches
 
-À +1 h :
+**Machine Learning**
 
-Persistence : 4,29 % nMAE
-Random Forest : 2,82 % nMAE
+Ridge · Random Forest · XGBoost
 
-## Important
+**Deep Learning**
 
-Le scénario ORACLE utilisant la météo future
-réellement observée constitue une expérience
-théorique et ne représente pas une prévision météo
-opérationnelle.
+LSTM · GRU
 
-## Auteur
+Les modèles sont comparés à des méthodes de référence comme la persistance.
 
-Serigne Fallou Faye
+---
 
-Septembre 2026
+## 📊 Quelques résultats
+
+### +1 heure
+
+**Random Forest : 2,82 % nMAE**
+**Skill : +34,18 %**
+
+### +6 heures
+
+**Random Forest : 5,43 % nMAE**
+**Skill : +70,38 %**
+
+Ces résultats sont obtenus sur le dataset SolarTech Lab.
+
+---
+
+## 🧪 Méthodologie
+
+```text
+Données
+   ↓
+Prétraitement
+   ↓
+Feature Engineering
+   ↓
+ML / Deep Learning
+   ↓
+Validation temporelle
+   ↓
+Analyse des résultats
+```
+
+## Le projet intègre également une étude d'ablation et une analyse SHAP pour étudier l'influence des variables.
+
+## 📂 Contenu
+
+```text
+PV-AI-Forecast/
+│
+├── notebooks/
+│   └── PV_AI_Forecast.ipynb
+│
+├── results/
+├── figures/
+├── requirements.txt
+└── README.md
+```
+
+---
+
+## 🚀 Perspectives
+
+Amélioration de la généralisation inter-sites, intégration de prévisions météorologiques réelles et développement vers des systèmes énergétiques intelligents.
+
+---
+
+## 👨🏽‍🔬 Auteur
+
+**Serigne Fallou Faye**
+Étudiant en Génie Électrique — **ESP Dakar, Sénégal**
+
+**Intérêt :** Intelligence Artificielle · Énergies renouvelables · Systèmes énergétiques intelligents
+
+---
+
+⭐ *Projet de recherche — Septembre 2026*
